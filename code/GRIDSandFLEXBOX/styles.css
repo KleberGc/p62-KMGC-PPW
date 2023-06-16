@@ -1,22 +1,43 @@
 * {
-    margin: 0px;
+  margin: 0px;
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.item {
-    border: 1px dotted lightskyblue;
-    /**
-    El padding funciona (top&button) padding: 20px; - auto en todas las posiciones
-    El padding funciona (Custom)     padding: 20px(top) 35px(right) 25px(button) 20px(left); - sentido horario o polos
-    */
-    padding: 10px 20px;
-
-    margin: 10px;
+.item1 {
+  border: 1px dotted lightskyblue;
+  padding: 50px 20px;
+  margin: 10px;
 }
+
+.item2 {
+  border: 1px dotted lightskyblue;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.item3 {
+  border: 1px dotted lightskyblue;
+  padding: 90px 20px;
+  margin: 10px;
+}
+
+.item4 {
+  border: 1px dotted lightskyblue;
+  padding: 70px 20px;
+  margin: 10px;
+}
+
+.item5 {
+  border: 1px dotted lightskyblue;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+
