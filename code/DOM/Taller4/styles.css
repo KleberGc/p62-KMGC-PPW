@@ -1,0 +1,16 @@
+.opcion {
+    border: solid black;
+    position: absolute;
+    top: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+#opcion1 {
+    background-color: lightpink;
+    z-index: 1;
+}
+#opcion2 {
+    background-color: lightblue;
+    z-index: 2;
+}
