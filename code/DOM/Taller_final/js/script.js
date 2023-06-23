@@ -1,9 +1,11 @@
-function show() {
-    document.getElementById('image')
-    document.getElementById('btnID').style.display = "none"
+function cargarImagen() {
+    var imagenContainer = document.getElementById("imagenContainer");
+    var imagen = document.createElement("img");
+    imagen.src = "ruta/imagen.jpg"; // Reemplaza "ruta/imagen.jpg" con la ruta de tu imagen
+    imagenContainer.appendChild(imagen);
 }
 
-function hide() {
-    var container = document.getElementById('container')
-    container.removeChild( container.lastElementChild )
+function eliminarImagen() {
+    var imagenContainer = document.getElementById("imagenContainer");
+    imagenContainer.innerHTML = "";
 }
