@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Javascript DOM - Funciones</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <script type="text/javascript" src="script.js"></script>
-	
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
-	<div>
-		<h1></h1>
-		<img id="image" src= "/code/DOM/Taller_final/images/tux_ironman.png"/>
-	</div>
-	<button onclick="show()">Cargar Elemento</button>
-    <button onclick="hide()">Eliminar Elemento</button>
+    <div class="container">
+        <h1>Mi Página Web</h1>
+        <button onclick="cargarImagen()">Cargar imagen</button>
+        <button onclick="eliminarImagen()">Eliminar imagen</button>
+        <div id="imagenContainer"></div>
+    </div>
 </body>
 </html>
