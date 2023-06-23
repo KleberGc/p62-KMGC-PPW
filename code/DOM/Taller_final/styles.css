@@ -8,24 +8,20 @@
 .imagen {
     margin-bottom: 10px;
     text-align: center;
+    width: 500px;
+    height: 500px;
 }
 
 .img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
-}
-
-img.mediana {
-    width: 350px;
-    height: 350px;
 }
 
 .div {
     display: flex;
     justify-content: center;
-    margin-left: 12px;
+    margin-left: 24px;
 }
 
 .botones {
@@ -33,5 +29,5 @@ img.mediana {
     justify-content: center;
     height: 25px;
     width: auto;
-    margin: 50px;
+    margin: 110px;
 }
