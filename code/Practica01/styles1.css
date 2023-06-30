@@ -3,9 +3,23 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   
+  h1{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(59, 118, 228);
+    padding: 10px;
+  }
+
+  h4{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(239, 240, 243);
+    padding: 10px;
+  }
+
   .container21 {
     display: grid;
-    grid-template: 100px 1fr 50px / 300px 1fr;
+    grid-template: 150px 1fr 50px / 300px 1fr;
     grid-template-areas: "header header" "left content" "footer footer";
     grid-gap: 5px;
     height: 100vh;
@@ -20,19 +34,10 @@
   }
   
   a.menu {
-    background-color: rgb(255, 137, 2);
+    background-color: rgb(255, 175, 2);
     color: #FFFFFF;
   }
-  
-  a:hover.menu {
-    background-color: rgb(255, 251, 0);
-  }
-  
-  .menu:active {
-    color: rgb(255, 255, 255); 
-  }
-  
-  
+   
   .item {
     background-color: #fdaf08;
     padding: 10px;
@@ -63,19 +68,12 @@
     grid-area: footer;
   }
 
-  .cuadrop {
-    display: grid;
-  
-    border: #7a08fd;
-    width: 700px;
-    height: 450px;
-  }
-
   .container {  display: grid;
     grid-template-columns: 1fr 0.7fr 1fr 1fr 1fr 1fr 1fr 0.9fr 0.8fr 1.3fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
+    border: 1px solid black;
   }
   
   .item1 { 
@@ -174,6 +172,7 @@
   
   .garitap { 
     grid-area: 7 / 2 / 8 / 3;
+    width: 70px;
     background-color: rgb(82, 126, 17);
     border: 1px solid black; 
   }

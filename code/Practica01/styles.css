@@ -24,15 +24,6 @@ a.menu {
   color: #FFFFFF;
 }
 
-a:hover.menu {
-  background-color: rgb(255, 251, 0);
-}
-
-.menu:active {
-  color: rgb(255, 255, 255); 
-}
-
-
 .item {
   background-color: #fdaf08;
   padding: 10px;
