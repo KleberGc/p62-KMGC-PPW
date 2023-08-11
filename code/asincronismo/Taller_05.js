@@ -1,4 +1,4 @@
-const saludar = (nombre) => {
+async function saludar(nombre) {
     return new Promise((resolve, reject) => {
         setTimeout(function() {
             console.log(`Hola ${nombre}.`)
@@ -7,7 +7,7 @@ const saludar = (nombre) => {
     })
 }
 
-const hablar = (nombre) => {
+async function hablar(nombre) {
     return new Promise((resolve, reject) => {
         setTimeout(function() {
             console.log(`Bla, bla, bla...`)
@@ -16,7 +16,7 @@ const hablar = (nombre) => {
     })
 }
 
-const adios = (nombre) => {
+async function adios(nombre) {
     return new Promise((resolve, reject) => {
         setTimeout(function() {
             console.log(`Terminando conversacion...`)
@@ -25,7 +25,12 @@ const adios = (nombre) => {
     })
 }
 
-console.log('Iniciando conversacion...')
-saludar('Guillermo')
-    .then( (dato) => hablar( dato ) )
-    .then( (dato) => adios( dato ) )
+async function main() {
+    console.log('Iniciando conversacion...')
+    let nombre = await saludar('Kleber')
+    await hablar( nombre )
+    await adios( nombre ) 
+}
+
+main()
+
